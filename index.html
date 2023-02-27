@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <title>Flipkart
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://img1a.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <div class="container-fluid bg-primary Header fixed-top">
+        <div class="row py-2 d-flex">
+            <!-- Logo -->
+            <div class="col-2 logo offset-lg-1">
+                <a href="#">
+                    <img width="75" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                        alt="Flipkart" title="Flipkart">
+                </a>
+                <a href="#">Explore <span>Plus</span>
+                    <img width="10" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png">
+                </a>
+            </div>
+
+            <!-- Search -->
+            <div class="col-1 col-md-4  search d-flex dropdown bg-white">
+                <input class="form-control" type="search" placeholder="Search for products, brands and more" id="searchBar">
+                <i class="fa fa-search mt-2 ml-sm-1 text-primary"></i>
+            </div>
+            <!-- Login -->
+            <div class="options">
+                <div class="col-1 dropdown login">
+                    <button class="btn bg-white text-primary" type="button" id="loginMenuButton">
+                        Login
+                    </button>
+                </div>
+
+                <!-- More -->
+                <div class="col-1 dropdown more">
+                    <a class="btn dropdown-toggle text-white ml-lg-2 ml-sm-0" href="#" role="button" id="moreMenuLink"
+                        data-toggle="dropdown">
+                        More
+                    </a>
+
+                    <div class="dropdown-menu more-list">
+                        <div>
+                            <i class="fa fa-bell text-primary ml-md -3 mt-2"></i>
+                            <a class="dropdown-item" href="#">Notification Preferences</a>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="d-flex">
+                            <i class="fa fa-archive text-primary ml-md-3 mt-2"></i>
+                            <a class="dropdown-item" href="#">Sell On Flipkart</a>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="d-flex">
+                            <i class="fa fa-question-circle text-primary ml-md-3 mt-2"></i>
+                            <a class="dropdown-item" href="#">24x7 Customer Care</a>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="d-flex">
+                            <i class="fa fa-chart-line text-primary ml-md-3 mt-2"></i>
+                            <a class="dropdown-item" href="#">Advertise</a>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="d-flex">
+                            <i class="fa fa-download text-primary ml-md-3 mt-2"></i>
+                            <a class="dropdown-item" href="#">Download App</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- Cart -->
+                    <div class="col col-md-1 d-flex justify-content-start">
+                        <i class="fa fa-shopping-cart text-white mt-2" aria-hidden="true"></i>
+                        <a href="" class="btn text-white">Cart</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Navigation Bar-->
+    <div class="container-fluid Navbar shadow-sm">
+        <div class="Nav">
+            <a href="#">Electronics</a>
+            <i class="fas fa-angle-down pt-1"></i>
+        </div>
+        <div class="Nav">
+            <a href="#">TVs & Appliances</a>
+            <i class="fas fa-angle-down pt-1"></i>
+        </div>
+        <div class="Nav">
+            <a href="#">Men</a>
+            <i class="fas fa-angle-down pt-1"></i>
+        </div>
+        <div class="Nav">
+            <a href="#">Women</a>
+            <i class="fas fa-angle-down pt-1"></i>
+        </div>
+        <div class="Nav">
+            <a href="#">Babies & Kids</a>
+            <i class="fas fa-angle-down pt-1"></i>
+        </div>
+        <div class="Nav">
+            <a href="#">Home & Furniture</a>
+            <i class="fas fa-angle-down pt-1"></i>
+        </div>
+        <div class="Nav">
+            <a href="#">Sports & More</a>
+            <i class="fas fa-angle-down pt-1"></i>
+        </div>
+        <div class="Nav">
+            <a href="#">Flights</a>
+        </div>
+        <div class="Nav">
+            <a href="#">Offer Zone</a>
+        </div>
+    </div>
+
+    <!-- section 1 -->
+    <section class="section-1">
+        <div class="section-1-container">
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="Top-Offer">
+                Top Offers
+            </div>
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="Grocery">
+                Grocery
+            </div>
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="Mobiles">
+                Mobiles
+            </div>
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100" alt="Fashion">
+                <div>
+                    Fashion
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+
+            </div>
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="Electronics">
+                <div>
+                    Electronics
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt="Home">
+                <div>
+                    Home
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="Appliances">
+                <div>
+                    Appliances
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="Travel">
+                Travel
+            </div>
+
+            <div class="section-1-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="Beauty, Toys & More">
+                <div>
+                    Beauty,Toys & More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--sales and banner -->
+    <div class="d-flex pt-2 my-3 dotd-card">
+        <div class="container-fluid bg-white pb-2 border deal-of-the-day">
+            <div class="row pt-3">
+                <div class="col slider-heading d-flex flex-row">
+                    <h4>Deals Of the Day</h4>
+                    <p>(22:07:26 Left)</p>
+                </div>
+                <div class="col col-sm-4 view-btn">
+                    <div>
+                        <button class="btn btn-primary shadow">View All</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row d-flex items">
+                <div class="card text-center sales">
+                    <img class="card-img-top p-2 img-fluid w-100" alt="Logitech C310 HD Webcam"
+                        src="https://rukminim1.flixcart.com/image/150/150/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70">
+                    <div class="card-body p-1">
+                        <h6 class="card-title">Webcams</h6>
+                        <a href="#" class="card-link">From ₹490</a>
+                        <p class="card-subtitle text-muted">Logitech, Quantum & more</p>
+                    </div>
+                </div>
+
+                <div class="card text-center sales">
+                    <img class="card-img-top p-2 img-fluid w-100" alt="Logitech C310 HD Webcam"
+                        src="https://rukminim1.flixcart.com/image/150/150/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70">
+                    <div class="card-body p-1">
+                        <h6 class="card-title">Webcams</h6>
+                        <a href="#" class="card-link">From ₹490</a>
+                        <p class="card-subtitle text-muted">Logitech, Quantum & more</p>
+                    </div>
+                </div>
+                
+                <div class="card text-center sales">
+                    <img class="card-img-top p-2 ml-5 img-fluid w-50" alt="Samsung Galaxy M11 (5000 mAh Battery)"
+                        src="https://rukminim1.flixcart.com/image/150/150/kavefm80/mobile/6/y/t/samsung-galaxy-m11-sm-m115fzkeins-original-imafscjyhxwghgwf.jpeg?q=70">
+                    <div class="card-body p-1">
+                        <h6 class="card-title">Samsung Galaxy M11</h6>
+                        <a href="#" class="card-link">5000 mAh Battery</a>
+                        <p class="card-subtitle text-muted">Now ₹10150</p>
+                    </div>
+                </div>
+
+                <div class="card text-center sales">
+                    <img class="card-img-top p-2 img-fluid w-100" alt="Woodland Men Brown Sports Sandals"
+                        src="https://rukminim1.flixcart.com/image/150/150/jvv9zm80/sandal/j/g/w/gd-2665117camel-40-woodland-camel-original-imafgztfhjdp6xmg.jpeg?q=70">
+                    <div class="card-body p-1">
+                        <h6 class="card-title">Woodland</h6>
+                        <a href="#" class="card-link">Upto 50% Off</a>
+                        <p class="card-subtitle text-muted">Sandals and Floaters</p>
+                    </div>
+                </div>
+
+                <div class="card text-center sales">
+                    <img class="card-img-top p-2 img-fluid w-100" alt="WDS Velvet 3 Seater Inflatable Sofa"
+                        src="https://rukminim1.flixcart.com/image/150/150/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70">
+                    <div class="card-body p-1">
+                        <h6 class="card-title">Inflatable Sofas</h6>
+                        <a href="#" class="card-link">Min 50% Off</a>
+                        <p class="card-subtitle text-muted">Furn Central & more</p>
+                    </div>
+                </div>
+
+                <div class="card text-center sales">
+                    <img class="card-img-top p-2 img-fluid w-100"
+                        alt="one click Solid Single Breasted Party, Casual, Wedding Men Blazer"
+                        src="https://rukminim1.flixcart.com/image/150/150/jcdoscw0/blazer/p/w/e/42-rlblu01-one-click-original-imaffg49ehyycgch.jpeg?q=70">
+                    <div class="card-body p-1">
+                        <h6 class="card-title">Party blazers for men</h6>
+                        <a href="#" class="card-link">50-80% Off</a>
+                        <p class="card-subtitle text-muted">Hangup</p>
+                    </div>
+                </div>
+
+                <div class="card text-center sales">
+                    <img class="card-img-top p-2 img-fluid w-100"
+                        alt="Jewellery"
+                        src="https://images.meesho.com/images/products/148172767/ofmsu_512.jpg">
+                    <div class="card-body p-1">
+                        <h6 class="card-title">Jewellery</h6>
+                        <a href="#" class="card-link">20% Off</a>
+                        <p class="card-subtitle text-muted">Tanisq</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="card ml-2 p-2">
+            <img class="card-img img-fluid"
+                src="https://rukminim1.flixcart.com/flap/600/358/image/633789f7def60050.jpg?q=70" alt="Flipkart Furniture Studio">
+        </div>
+    </div>
+
+    <!-- Books and Music Intruments -->
+    <div class="container-fluid bg-white my-3 py-2 border shadow-sm product-bar">
+        <div class="row pt-3">
+            <div class="col slider-heading">
+                <h4>Books And music Instruments</h4>
+                <h6 class="text-muted">Shop Now!</h6>
+            </div>
+            <div class="col col-sm-4 view-btn">
+                <div>
+                    <button class="btn btn-primary shadow">View All</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row d-flex wrap justify-content-start">
+            <div class="card text-center sales">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Harmoniums"
+                    src="https://m.media-amazon.com/images/I/51rSSEpV8KL._SX355_.jpg">
+                <div class="card-body p-1">
+                    <h6 class="card-title">Harmoniums</h6>
+                    <a href="#" class="card-link">Up to 60% Off</a>
+                    <p class="card-subtitle text-muted">Shop Now!</p>
+                </div>
+            </div>
+
+            <div class="card text-center sales">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Flutes"
+                    src="https://img3.exportersindia.com/product_images/bc-full/2019/8/1767379/wooden-flute-1565094232-5034339.jpeg">
+                <div class="card-body p-1">
+                    <h6 class="card-title">Flutes</h6>
+                    <a href="#" class="card-link">Up to 80% Off</a>
+                    <p class="card-subtitle text-muted">Shop Now!</p>
+                </div>
+            </div>
+
+            <div class="card text-center sales">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Acoustics Guitars"
+                    src="https://cdn.shopify.com/s/files/1/0038/9929/3811/products/1593518306541-456.ADMINIOP_2_8d67787f-eaf0-499e-9688-4e9036c24469_1024x.jpg?v=1611291468">
+                <div class="card-body p-1">
+                    <h6 class="card-title">Acoustics Guitars</h6>
+                    <a href="#" class="card-link">Starting ₹1799</a>
+                    <p class="card-subtitle text-muted">Juarez, Revel..</p>
+                </div>
+            </div>
+
+            <div class="card text-center sales">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Musical Accessories"
+                    src="https://rukminim1.flixcart.com/image/612/612/jzfvma80/guitar-capo/v/z/a/combo-pack-ag-011-string-set-agc-20-with-6-celluloid-picks-original-imafjgggxx3swzbb.jpeg?q=70">
+                <div class="card-body p-1">
+                    <h6 class="card-title">Musical Accessories</h6>
+                    <a href="#" class="card-link">Up to 80% off</a>
+                    <p class="card-subtitle text-muted">Shop Now!</p>
+                </div>
+            </div>
+
+            <div class="card text-center sales">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Microphone Accessories"
+                    src="https://www.adawliahshop.com/public/storage/products/1221/MUS062-1-600x600-1-7.jpg">
+                <div class="card-body p-1">
+                    <h6 class="card-title">Microphone Accessories</h6>
+                    <a href="#" class="card-link">Up to 80% Off</a>
+                    <p class="card-subtitle text-muted">Shop Now!</p>
+                </div>
+            </div>
+
+            <div class="card text-center sales">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Acoustics Guitars"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaVdrvUlrKZ7EGIYN8Nv_ToQY9dOftJR6d-w&usqp=CAU">
+                <div class="card-body p-1">
+                    <h6 class="card-title">Acoustics Guitars</h6>
+                    <a href="#" class="card-link">From ₹1799</a>
+                    <p class="card-subtitle text-muted">By Revel</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
